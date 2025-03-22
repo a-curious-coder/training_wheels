@@ -14,10 +14,13 @@ import { ref } from 'vue'
 import OptionSelector from './OptionSelector.vue'
 
 const options = [
-  { 'label': 'Option 1', 'value': 'Value 1' },
-  { 'label': 'Option 2', 'value': 'Value 2' },
-  { 'label': 'Option 3', 'value': 'Value 3' },
-  { 'label': 'Option 4', 'value': 'Value 4' },
+  { 'label': 'Monday', 'value': 'Monday' },
+  { 'label': 'Tuesday', 'value': 'Tuesday' },
+  { 'label': 'Wednesday', 'value': 'Wednesday' },
+  { 'label': 'Thursday', 'value': 'Thursday' },
+  { 'label': 'Friday', 'value': 'Friday' },
+  { 'label': 'Saturday', 'value': 'Saturday' },
+  { 'label': "I'm flexible", 'value': "I'm flexible" },
 ]
 
 const selectedValues = ref([]);

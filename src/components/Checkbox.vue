@@ -29,7 +29,7 @@ const isChecked = computed(() => {
 });
 
 const triggerChange = (val: string) => {
-  if (val === "Value 4" && isChecked) {
+  if (val === "I'm flexible" && isChecked) {
     // If exclusive mode and this value was just checked
     selectedValues.value = selectedValues.value.filter(item => item === val);
   }
